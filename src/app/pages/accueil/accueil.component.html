@@ -1,0 +1,104 @@
+<!-- SLIDER DG -->
+<div class="container-fluid mt-3">
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- SLIDER -->
+                <app-slider></app-slider>
+                <!-- Flash Infos -->
+                <div>
+                    <app-flash class="flash p-2 ml-2"></app-flash>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <app-dg></app-dg>
+            </div>  
+        </div>
+    </div>
+</div>
+<!-- FIN SLIDER DG -->
+
+<!-- COMMUNIQUES -->
+<div class="container-fluid mt-3">
+    <div class="communiques container px-0">
+        <div class="d-flex align-items-center justify-content-between py-2 mb-3 titre-card">
+            <h4 class="m-0" style="font-size: 22px; font-style: italic;">Communiqués</h4>
+            <hr>
+            <a class="font-weight-medium text-decoration-none voir-tout" href="">Voir tout</a>
+        </div>
+        <div class="row row-cols-1 pt-4">
+            <app-communiques></app-communiques>
+        </div>
+    </div>
+</div>
+<!-- FIN COMMUNIQUES -->
+
+<!-- PUBLICITES -->
+<div class="container-fluid mt-4">
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="py-2 mb-3 titre-card">
+                    <h4 class="m-0" style="font-size: 22px; font-style: italic;">Espace qualité</h4>
+                </div>
+                <app-espace-qualite></app-espace-qualite>
+            </div>
+            <div class="col-lg-4">
+                <div class="py-2 mb-3 titre-card">
+                    <h4 class="m-0" style="font-size: 22px; font-style: italic;">Service en ligne</h4>
+                </div>
+                <app-service-ligne></app-service-ligne>
+            </div>
+            <div class="col-lg-4">
+                <div class="py-2 mb-3 titre-card">
+                    <h4 class="m-0" style="font-size: 22px; font-style: italic;">Assistance contribuable</h4>
+                </div>
+                <app-assistance></app-assistance>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FIN PUBLICITES -->
+
+<!-- TRANSFERT DE PROPRIETE -->
+<div class="container-fluid mt-3">
+    <div class="container px-0">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="mb-3 titre-card">
+            <h4 class="m-0" style="font-size: 22px; font-style: italic;">Transfert de propriété</h4>
+          </div>
+          <app-transfert-propriete></app-transfert-propriete>
+        </div>
+        <div class="col-lg-3">
+            <div class="mb-3 titre-card">
+              <h4 class="m-0" style="font-size: 22px; font-style: italic;">Informations utiles</h4>
+            </div>
+            <app-infos-utiles></app-infos-utiles>
+        </div>
+        <div class="col-lg-4">
+            <div class="mb-3 titre-card">
+              <h4 class="m-0" style="font-size: 22px; font-style: italic;">Activités internes</h4>
+            </div>
+            <app-activites-internes></app-activites-internes>
+          </div>
+      </div>
+    </div>
+</div>
+
+<!-- CARTE DIRECTIONS REGIONALES -->
+<div class="container-fluid mt-3">
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-lg-8">
+                <app-carte></app-carte>
+            </div>
+            <div class="col-lg-4">
+                <div class="py-2 mb-3 titre-card">
+                    <h4 class="m-0" style="font-size: 22px; font-style: italic;">Espace publicité</h4>
+                </div>
+                <app-espace-pub></app-espace-pub>
+            </div>
+        </div>
+    </div>
+</div>
