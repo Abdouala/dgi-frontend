@@ -25,6 +25,9 @@ import { InfosUtilesComponent } from './pages/accueil/infos-utiles/infos-utiles.
 import { ActivitesInternesComponent } from './pages/accueil/activites-internes/activites-internes.component';
 import { CarteComponent } from './pages/accueil/carte/carte.component';
 import { EspacePubComponent } from './pages/accueil/espace-pub/espace-pub.component';
+import { GaleriePhotosComponent } from './pages/accueil/galerie-photos/galerie-photos.component';
+import { GalerieVideosComponent } from './pages/accueil/galerie-videos/galerie-videos.component';
+import { KiosqueComponent } from './pages/accueil/kiosque/kiosque.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +50,10 @@ import { EspacePubComponent } from './pages/accueil/espace-pub/espace-pub.compon
     InfosUtilesComponent,
     ActivitesInternesComponent,
     CarteComponent,
-    EspacePubComponent
+    EspacePubComponent,
+    GaleriePhotosComponent,
+    GalerieVideosComponent,
+    KiosqueComponent
   ],
   imports: [
     BrowserModule,
