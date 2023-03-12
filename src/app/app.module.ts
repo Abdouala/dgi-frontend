@@ -27,7 +27,6 @@ import { InfosUtilesComponent } from './pages/accueil/infos-utiles/infos-utiles.
 import { ActivitesInternesComponent } from './pages/accueil/activites-internes/activites-internes.component';
 import { CarteComponent } from './pages/accueil/carte/carte.component';
 import { EspacePubComponent } from './pages/accueil/espace-pub/espace-pub.component';
-import { GalleryComponent } from './pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -50,8 +49,7 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
     InfosUtilesComponent,
     ActivitesInternesComponent,
     CarteComponent,
-    EspacePubComponent,
-    GalleryComponent
+    EspacePubComponent
   ],
   imports: [
     BrowserModule,
